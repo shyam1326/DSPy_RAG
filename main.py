@@ -1,7 +1,6 @@
 # DSPY - Programming Foundation Model - Inbuild chain of thought prompting
 
 
-import sys
 import os
 import dspy
 from dspy.datasets import HotPotQA
@@ -116,7 +115,7 @@ class GenerateSearchQuery(dspy.Signature):
     question = dspy.InputField()
     search_query = dspy.OutputField()
 
-# The main Purpose of using Baleen is automatically modify the question(prompt) and divide into chunks. For Example, if the question is 
+# The main Purpose of using Baleen is to automatically modify the question(prompt) and divide it into chunks. For Example, if the question is 
 # "What is the capital of India?", Baleen will automatically modify the question to "What is the capital of India?" and 
 # "India is the capital of which country?" and divide the question into chunks.
 
