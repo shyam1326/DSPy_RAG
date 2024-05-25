@@ -1,12 +1,12 @@
 # DSPY - Programming Foundation Model - Inbuilt Chain of Thought Prompting
 
 ## Description
-DSPY (Dynamic Sales Performance Yield) is a programming foundation model designed to address common issues in retrieval and response generation. It features advanced techniques for auto prompt optimization, auto reasoning, pipeline adaptation, auto weight optimization, and built-in evaluation to ensure optimal performance and accuracy.
+DSPY (Declarative Self-improving Language Programs) is a programming foundation model designed to address common issues in retrieval and response generation. It features advanced techniques for auto prompt optimization, auto reasoning, pipeline adaptation, auto weight optimization, and built-in evaluation to ensure optimal performance and accuracy.
 
 ## Key Components
 1. **Signature:** Focuses on the type of system being built (e.g., Q&A, Chatbot).
 2. **Modules:** Involves advanced prompting techniques and LLM models.
-3. **Optimizer:** Automatically evaluates responses and retrieved context against the ground truth.
+3. **Optimizer:** Automatically evaluates responses and retrieved-context against the ground truth.
 
 ## Features
 - **Auto Prompt Optimization:** Automatically enhances the prompts for better results.
